@@ -1,156 +1,208 @@
 <!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Fit360 — Guia de Emagrecimento e Fortalecimento Muscular</title>
-    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fit360 — Guia de Emagrecimento e Fortalecimento Muscular</title>
+  <meta name="description" content="Fit360: o guia prático para emagrecer, ganhar força e criar hábitos duradouros. Treinos e alimentação para homens e mulheres.">
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 </head>
 <body class="antialiased text-gray-200 bg-gray-900">
 
-    <header class="bg-gray-900 py-16">
-    <div class="container mx-auto px-6 lg:px-20">
-      <div class="lg:flex lg:items-center lg:justify-between">
-        <div class="lg:w-6/12">
-          <h1 class="text-4xl lg:text-5xl font-extrabold leading-tight mb-4">Transforme seu corpo e sua saúde com o método <span class="text-green-400">Fit360</span></h1>
-          <p class="text-gray-300 text-lg mb-6">O guia completo para emagrecer, ganhar força e criar hábitos duradouros — sem dietas malucas ou treinos impossíveis. Ideal para homens e mulheres.</p>
+  <!-- HERO -->
+  <header class="bg-gray-900 py-16">
+    <div class="container mx-auto px-6 lg:px-20">
+      <div class="lg:flex lg:items-center lg:justify-between">
+        <div class="lg:w-6/12">
+          <h1 class="text-4xl lg:text-5xl font-extrabold leading-tight mb-4">
+            Transforme seu corpo e sua saúde com o método <span class="text-green-400">Fit360</span>
+          </h1>
+          <p class="text-gray-300 text-lg mb-6">
+            O guia completo para emagrecer, ganhar força e criar hábitos duradouros — sem dietas malucas ou treinos impossíveis. Ideal para homens e mulheres.
+          </p>
 
-          <div class="flex items-center space-x-4">
-                        <a id="buy-btn" href="https://pay.kiwify.com.br/Yl0bSEA" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold shadow-lg transition duration-300">Quero meu Fit360 (R$47)</a>
-                        <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" class="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-5 py-3 rounded-md font-semibold transition duration-300">Falar no WhatsApp</a>
-          </div>
+          <div class="flex items-center space-x-4">
+            <!-- Botão principal: rola até a sessão de compra -->
+            <a id="buy-btn" href="#comprar" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold shadow-lg transition duration-300" aria-label="Ir para a seção de compra">
+              Quero meu Fit360 (R$47)
+            </a>
+            <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" rel="noopener noreferrer" class="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-5 py-3 rounded-md font-semibold transition duration-300" aria-label="Falar com suporte pelo WhatsApp">
+              Falar no WhatsApp
+            </a>
+          </div>
 
-          <ul class="mt-6 text-sm text-gray-300 space-y-2">
-            <li>✔ Entrega imediata em PDF</li>
-            <li>✔ Bônus: Plano alimentar flexível + Treino de 15 minutos</li>
-            <li>✔ Garantia de 7 dias</li>
-          </ul>
-        </div>
+          <ul class="mt-6 text-sm text-gray-300 space-y-2">
+            <li>✔ Entrega imediata em PDF</li>
+            <li>✔ Bônus: Plano alimentar flexível + Treino de 15 minutos</li>
+            <li>✔ Garantia de 7 dias</li>
+          </ul>
+        </div>
 
-        <div class="lg:w-5/12 mt-10 lg:mt-0 flex justify-center">
-          <img src="https://i.ibb.co/LXh0q5ZJ/Chat-GPT-Image-16-de-out-de-2025-18-56-24.png" alt="Capa Fit360" class="w-72 lg:w-80 shadow-2xl rounded-md transform hover:scale-105 transition" />
-        </div>
-      </div>
-    </div>
-  </header>
+        <div class="lg:w-5/12 mt-10 lg:mt-0 flex justify-center">
+          <img src="https://i.ibb.co/KcZNBtgw/Chat-GPT-Image-16-de-out-de-2025-10-47-46.png" alt="Capa do ebook Fit360" class="w-72 lg:w-80 shadow-2xl rounded-md transform hover:scale-105 transition" />
+        </div>
+      </div>
+    </div>
+  </header>
 
-    <section class="container mx-auto px-6 lg:px-20 py-12">
-    <div class="grid lg:grid-cols-3 gap-8">
-      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
-        <h3 class="text-xl font-bold mb-3">Alimentação inteligente</h3>
-        <p class="text-gray-300">Aprenda a montar refeições que aceleram a perda de gordura sem passar fome. Modelos de cardápio práticos para homens e mulheres.</p>
-      </div>
-      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
-        <h3 class="text-xl font-bold mb-3">Treinos que funcionam</h3>
-        <p class="text-gray-300">Treinos em casa e na academia para iniciantes e intermediários, com progressão de carga e adaptações.</p>
-      </div>
-      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
-        <h3 class="text-xl font-bold mb-3">Mentalidade e rotina</h3>
-        <p class="text-gray-300">Estratégias práticas para criar disciplina, lidar com recaídas e manter resultados ao longo do tempo.</p>
-      </div>
-    </div>
-  </section>
+  <!-- FEATURES -->
+  <section class="container mx-auto px-6 lg:px-20 py-12">
+    <div class="grid lg:grid-cols-3 gap-8">
+      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <h3 class="text-xl font-bold mb-3">Alimentação inteligente</h3>
+        <p class="text-gray-300">Aprenda a montar refeições que aceleram a perda de gordura sem passar fome. Modelos de cardápio práticos para homens e mulheres.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <h3 class="text-xl font-bold mb-3">Treinos que funcionam</h3>
+        <p class="text-gray-300">Treinos em casa e na academia para iniciantes e intermediários, com progressão de carga e adaptações.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <h3 class="text-xl font-bold mb-3">Mentalidade e rotina</h3>
+        <p class="text-gray-300">Estratégias práticas para criar disciplina, lidar com recaídas e manter resultados ao longo do tempo.</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="amostra" class="bg-gray-800 py-12">
-    <div class="container mx-auto px-6 lg:px-20">
-      <div class="lg:flex lg:items-center lg:space-x-12">
-        <div class="lg:w-7/12">
-          <h2 class="text-2xl font-bold mb-4">O que você encontra no Fit360</h2>
-          <ul class="space-y-3 text-gray-300">
-            <li>• Como montar seu déficit calórico sem passar fome</li>
-            <li>• Treinos de 15, 30 e 45 minutos (casa e academia)</li>
-            <li>• Planos de refeição e lista de compras</li>
-            <li>• Treino rápido para dias corridos (bônus)</li>
-            <li>• Dicas de suplementos, sono e hidratação</li>
-            <li>• Desafio de 21 dias com checklist</li>
-          </ul>
-        </div>
-        <div class="lg:w-5/12 mt-6 lg:mt-0">
-          <div class="p-6 bg-gray-900 rounded-md shadow-lg">
-            <h3 class="text-lg font-bold mb-2">Bônus exclusivos</h3>
-            <p class="text-gray-300 mb-4">Ao comprar hoje você leva:</p>
-            <ul class="text-gray-300 space-y-2">
-              <li>🎁 Plano Alimentar Flexível</li>
-              <li>🎁 Treino Rápido de 15 Minutos</li>
-            </ul>
-            <div class="mt-6">
-              <a href="https://pay.kiwify.com.br/Yl0bSEA" class="bg-green-500 hover:bg-green-600 text-white block text-center px-4 py-3 rounded-md font-semibold transition duration-300">Adicionar ao carrinho — R$47</a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
+  <!-- AMOSTRA / BÔNUS -->
+  <section id="amostra" class="bg-gray-800 py-12">
+    <div class="container mx-auto px-6 lg:px-20">
+      <div class="lg:flex lg:items-center lg:space-x-12">
+        <div class="lg:w-7/12">
+          <h2 class="text-2xl font-bold mb-4">O que você encontra no Fit360</h2>
+          <ul class="space-y-3 text-gray-300">
+            <li>• Como montar seu déficit calórico sem passar fome</li>
+            <li>• Treinos de 15, 30 e 45 minutos (casa e academia)</li>
+            <li>• Planos de refeição e lista de compras</li>
+            <li>• Treino rápido para dias corridos (bônus)</li>
+            <li>• Dicas de suplementos, sono e hidratação</li>
+            <li>• Desafio de 21 dias com checklist</li>
+          </ul>
+        </div>
+        <div class="lg:w-5/12 mt-6 lg:mt-0">
+          <div class="p-6 bg-gray-900 rounded-md shadow-lg">
+            <h3 class="text-lg font-bold mb-2">Bônus exclusivos</h3>
+            <p class="text-gray-300 mb-4">Ao comprar hoje você leva:</p>
+            <ul class="text-gray-300 space-y-2">
+              <li>🎁 Plano Alimentar Flexível</li>
+              <li>🎁 Treino Rápido de 15 Minutos</li>
+            </ul>
+            <div class="mt-6">
+              <a href="https://pay.kiwify.com.br/Yl0bSEA" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white block text-center px-4 py-3 rounded-md font-semibold transition duration-300" aria-label="Adicionar ao carrinho na Kiwify">
+                Adicionar ao carrinho — R$47
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="container mx-auto px-6 lg:px-20 py-12">
-    <h3 class="text-2xl font-bold mb-6">Resultados reais</h3>
-    <div class="grid lg:grid-cols-3 gap-6">
-      <div class="p-6 bg-gray-800 rounded-lg">
-        <p class="text-gray-300 italic">"Com o Fit360 perdi 6kg em 2 meses e recuperei minha autoestima."</p>
-        <p class="mt-4 font-semibold">— Rafaela S.</p>
-        </div>
-      <div class="p-6 bg-gray-800 rounded-lg">
-        <p class="text-gray-300 italic">"Treinos fáceis de seguir e cardápios práticos. Recomendo!"</p>
-        <p class="mt-4 font-semibold">— Lucas F.</p>
-      </div>
-      <div class="p-6 bg-gray-800 rounded-lg">
-        <p class="text-gray-300 italic">"Melhorei meu condicionamento e ganhei massa magra com pouco tempo diário."</p>
-        <p class="mt-4 font-semibold">— Mariana T.</p>
-      </div>
-    </div>
-  </section>
+  <!-- TESTEMUNHOS -->
+  <section class="container mx-auto px-6 lg:px-20 py-12">
+    <h3 class="text-2xl font-bold mb-6">Resultados reais de quem já transformou o corpo</h3>
+    <div class="grid lg:grid-cols-3 gap-6">
+      <div class="p-6 bg-gray-800 rounded-lg">
+        <p class="text-gray-300 italic">“O Fit360 mudou completamente minha rotina! Em poucas semanas consegui perder peso e ganhei disposição para treinar todos os dias. O método é simples e funciona mesmo!”</p>
+        <p class="mt-4 font-semibold text-sm"><strong>Sandra Lima</strong>, Professora, MG</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg">
+        <p class="text-gray-300 italic">“Já tentei várias dietas e treinos, mas só com o Fit360 vi resultados de verdade. Ganhei massa muscular e perdi gordura sem precisar passar fome. Recomendo de olhos fechados!”</p>
+        <p class="mt-4 font-semibold text-sm"><strong>Welligton Santos</strong>, Empresário, RJ</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg">
+        <p class="text-gray-300 italic">“O guia é super completo e fácil de seguir. As explicações são claras, e o plano de treino fez toda diferença. Estou mais confiante e feliz com meu corpo!”</p>
+        <p class="mt-4 font-semibold text-sm"><strong>Helena Rodrigues</strong>, Estudante, SP</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg">
+        <p class="text-gray-300 italic">“Sempre tive dificuldade em manter o foco, mas o Fit360 me deu um passo a passo prático. Já eliminei 8 kg e continuo evoluindo!”</p>
+        <p class="mt-4 font-semibold text-sm"><strong>Laura Alves</strong>, Secretária, PR</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg">
+        <p class="text-gray-300 italic">“Além de emagrecer, ganhei força e autoestima. O design do guia é lindo e super motivador. Vale cada centavo!”</p>
+        <p class="mt-4 font-semibold text-sm"><strong>Rodrigo Fonseca</strong>, Desenvolvedor, BA</p>
+      </div>
+    </div>
+  </section>
 
-    <section id="comprar" class="bg-gray-900 py-14">
-    <div class="container mx-auto px-6 lg:px-20">
-      <div class="lg:flex lg:items-center lg:justify-between">
-        <div class="lg:w-7/12">
-          <h2 class="text-3xl font-extrabold mb-4">Oferta especial — por tempo limitado</h2>
-          <p class="text-gray-300 mb-6">Garanta o Fit360 com todos os bônus por apenas <span class="text-2xl font-bold text-green-400">R$47</span>. Compra segura pela Kiwify e entrega por e-mail.</p>
+  <!-- COMPRA -->
+  <section id="comprar" class="bg-gray-900 py-14">
+    <div class="container mx-auto px-6 lg:px-20">
+      <div class="lg:flex lg:items-center lg:justify-between">
+        <div class="lg:w-7/12">
+          <h2 class="text-3xl font-extrabold mb-4">Oferta especial — por tempo limitado</h2>
+          <p class="text-gray-300 mb-6">
+            Garanta o Fit360 com todos os bônus por apenas <span class="text-2xl font-bold text-green-400">R$47</span>. Compra segura pela Kiwify e entrega por e-mail.
+          </p>
 
-          <ul class="text-gray-300 space-y-2 mb-6">
-            <li>✔ Entrega imediata</li>
-            <li>✔ Garantia de 7 dias</li>
-            <li>✔ Suporte via WhatsApp/Instagram</li>
-          </ul>
+          <ul class="text-gray-300 space-y-2 mb-6">
+            <li>✔ Entrega imediata</li>
+            <li>✔ Garantia de 7 dias</li>
+            <li>✔ Suporte via WhatsApp/Instagram</li>
+          </ul>
 
-          <div class="flex items-center space-x-4">
-            <a href="https://pay.kiwify.com.br/Yl0bSEA" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold shadow-lg transition duration-300">Comprar via Kiwify — R$47</a>
-            <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" class="text-sm text-gray-400 hover:text-green-500 transition duration-300">Perguntas frequentes (WhatsApp)</a>
-          </div>
-        </div>
+          <div class="flex items-center space-x-4">
+            <a href="https://pay.kiwify.com.br/Yl0bSEA" target="_blank" rel="noopener noreferrer" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold shadow-lg transition duration-300" aria-label="Comprar via Kiwify">
+              Comprar via Kiwify — R$47
+            </a>
+            <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" rel="noopener noreferrer" class="text-sm text-gray-400 hover:text-green-500 transition duration-300">
+              Perguntas frequentes (WhatsApp)
+            </a>
+          </div>
+        </div>
 
-        <div class="lg:w-4/12 mt-8 lg:mt-0">
-          <div class="p-6 bg-gray-800 rounded-lg">
-            <h4 class="font-bold text-lg mb-3">Garantia de 7 dias</h4>
-            <p class="text-gray-300">Se por qualquer motivo o conteúdo não ajudar, peça reembolso dentro de 7 dias — sem perguntas.</p>
-            <div class="mt-4">
-                            <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20pedir%20o%20reembolso%20do%20Fit360." target="_blank" class="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white block text-center px-4 py-3 rounded-md font-semibold transition duration-300">Entrar em contato (WhatsApp)</a>
-            </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  </section>
+        <div class="lg:w-4/12 mt-8 lg:mt-0">
+          <div class="p-6 bg-gray-800 rounded-lg">
+            <h4 class="font-bold text-lg mb-3">Garantia de 7 dias</h4>
+            <p class="text-gray-300">Se por qualquer motivo o conteúdo não ajudar, peça reembolso dentro de 7 dias — sem perguntas.</p>
+            <div class="mt-4">
+              <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20pedir%20o%20reembolso%20do%20Fit360." target="_blank" rel="noopener noreferrer" class="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white block text-center px-4 py-3 rounded-md font-semibold transition duration-300">
+                Entrar em contato (WhatsApp)
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section class="container mx-auto px-6 lg:px-20 py-12">
-    <h3 class="text-2xl font-bold mb-4">Dúvidas frequentes</h3>
-    <div class="space-y-4 text-gray-300">
-      <details class="bg-gray-800 p-4 rounded"><summary class="font-semibold cursor-pointer">Posso fazer os treinos em casa sem equipamento?</summary><p class="mt-2">Sim. O eBook traz versões de treino sem equipamento e com equipamentos básicos como halteres ou elástico.</p></details>
-      <details class="bg-gray-800 p-4 rounded"><summary class="font-semibold cursor-pointer">O eBook serve para todos os níveis?</summary><p class="mt-2">Sim. Os treinos e as progressões têm variações para iniciante, intermediário e avançado.</p></details>
-      <details class="bg-gray-800 p-4 rounded"><summary class="font-semibold cursor-pointer">Como recebo o produto?</summary><p class="mt-2">Após o pagamento você receberá um link de download por e-mail (entrega automática Kiwify).</p></details>
-    </div>
-  </section>
+  <!-- FAQ -->
+  <section class="container mx-auto px-6 lg:px-20 py-12">
+    <h3 class="text-2xl font-bold mb-4">Dúvidas frequentes</h3>
+    <div class="space-y-4 text-gray-300">
+      <details class="bg-gray-800 p-4 rounded">
+        <summary class="font-semibold cursor-pointer">Posso fazer os treinos em casa sem equipamento?</summary>
+        <p class="mt-2">Sim. O eBook traz versões de treino sem equipamento e com equipamentos básicos como halteres ou elástico.</p>
+      </details>
+      <details class="bg-gray-800 p-4 rounded">
+        <summary class="font-semibold cursor-pointer">O eBook serve para todos os níveis?</summary>
+        <p class="mt-2">Sim. Os treinos e as progressões têm variações para iniciante, intermediário e avançado.</p>
+      </details>
+      <details class="bg-gray-800 p-4 rounded">
+        <summary class="font-semibold cursor-pointer">Como recebo o produto?</summary>
+        <p class="mt-2">Após o pagamento você receberá um link de download por e-mail (entrega automática Kiwify).</p>
+      </details>
+    </div>
+  </section>
 
-    <footer class="bg-gray-900 py-8">
-    <div class="container mx-auto px-6 lg:px-20 text-gray-400 text-sm">
-      <div class="lg:flex lg:justify-between lg:items-center">
-        <div>© Fit360 • Guia de Emagrecimento e Fortalecimento Muscular</div>
-        <div class="mt-4 lg:mt-0">Suporte: <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" class="text-green-400 hover:text-green-300">WhatsApp</a></div>
-      </div>
-    </div>
-  </footer>
+  <!-- FOOTER -->
+  <footer class="bg-gray-900 py-8">
+    <div class="container mx-auto px-6 lg:px-20 text-gray-400 text-sm">
+      <div class="lg:flex lg:justify-between lg:items-center">
+        <div>© Fit360 • Guia de Emagrecimento e Fortalecimento Muscular</div>
+        <div class="mt-4 lg:mt-0">
+          Suporte: <a href="https://wa.me/55849913781670?text=Ol%C3%A1%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" rel="noopener noreferrer" class="text-green-400 hover:text-green-300">WhatsApp (84) 99137-8167</a>
+        </div>
+      </div>
+      <p class="text-xs text-gray-500 mt-2">Os resultados podem variar de pessoa para pessoa.</p>
+    </div>
+  </footer>
 
-  <script>
-    document.getElementById('buy-btn').addEventListener('click', function(e){ e.preventDefault(); document.getElementById('comprar').scrollIntoView({behavior:'smooth'}); });
-  </script>
+  <script>
+    // Rola suavemente até a seção de compra ao clicar no botão do herói
+    document.getElementById('buy-btn').addEventListener('click', function(e){
+      e.preventDefault();
+      document.getElementById('comprar').scrollIntoView({behavior:'smooth'});
+    });
+  </script>
 </body>
 </html>
