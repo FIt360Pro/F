@@ -20,14 +20,24 @@
     
     ttq.load('D3SF1R3C77UACP403KRG');
     ttq.page();
-    
-    // Evento de visualização de conteúdo (ViewContent)
+
+    // Evento de visualização da página (ViewContent)
     ttq.track('ViewContent', {
       content_id: 'fit360',
       content_name: 'Fit360 — Guia de Emagrecimento e Fortalecimento Muscular',
       value: 97.00,
       currency: 'BRL'
     });
+
+    // Evento de compra (Purchase) — dispara quando o usuário chega na página de obrigado
+    if (window.location.href.includes("obrigado") || window.location.href.includes("thankyou")) {
+      ttq.track('Purchase', {
+        content_id: 'fit360',
+        content_name: 'Fit360 — Guia de Emagrecimento e Fortalecimento Muscular',
+        value: 97.00,
+        currency: 'BRL'
+      });
+    }
   }(window, document, 'ttq');
   </script>
   <!-- TikTok Pixel Code End -->
@@ -82,7 +92,7 @@
       Resultados reais com treinos inteligentes e alimentação estratégica.
     </p>
 
-    <a href="https://kiwify.app/checkout/SEU_CODIGO_AQUI" 
+    <a href="https://pay.kiwify.com.br/Yl0bSEA" 
        target="_blank" 
        class="botao">
        Quero meu Fit360 por R$47
