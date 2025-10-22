@@ -1,30 +1,33 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Fit360 — Guia de Emagrecimento e Fortalecimento Muscular</title>
-  <meta name="description" content="Transforme seu corpo com o Fit360 — o guia definitivo para emagrecimento e fortalecimento muscular." />
-  
-  <!-- TikTok Pixel Code Start -->
+  <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+
+  <!-- TikTok Pixel Fit360 -->
   <script>
   !function (w, d, t) {
     w.TiktokAnalyticsObject=t;var ttq=w[t]=w[t]||[];
-    ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"];
+    ttq.methods=["page","track","identify","instances","debug","on","off","once","ready","alias","group","enableCookie","disableCookie","holdConsent","revokeConsent","grantConsent"],
     ttq.setAndDefer=function(t,e){t[e]=function(){t.push([e].concat(Array.prototype.slice.call(arguments,0)))}};for(var i=0;i<ttq.methods.length;i++)ttq.setAndDefer(ttq,ttq.methods[i]);
-    ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e};
+    ttq.instance=function(t){for(var e=ttq._i[t]||[],n=0;n<ttq.methods.length;n++)ttq.setAndDefer(e,ttq.methods[n]);return e},
     ttq.load=function(e,n){var r="https://analytics.tiktok.com/i18n/pixel/events.js",o=n&&n.partner;
-    ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{};
+    ttq._i=ttq._i||{},ttq._i[e]=[],ttq._i[e]._u=r,ttq._t=ttq._t||{},ttq._t[e]=+new Date,ttq._o=ttq._o||{},ttq._o[e]=n||{},
     n=document.createElement("script");n.type="text/javascript";n.async=!0;n.src=r+"?sdkid="+e+"&lib="+t;
     e=document.getElementsByTagName("script")[0];e.parentNode.insertBefore(n,e)};
-    
     ttq.load('D3SF1R3C77UACP403KRG');
     ttq.page();
 
     // Evento de visualização da página (ViewContent)
     ttq.track('ViewContent', {
-      content_id: 'fit360',
-      content_name: 'Fit360 — Guia de Emagrecimento e Fortalecimento Muscular',
+      contents: [{
+        content_id: 'fit360',
+        content_name: 'Fit360 — Guia de Emagrecimento e Fortalecimento Muscular',
+        quantity: 1,
+        price: 39.00
+      }],
       value: 39.00,
       currency: 'BRL'
     });
@@ -32,77 +35,82 @@
     // Evento de compra (Purchase) — dispara quando o usuário chega na página de obrigado
     if (window.location.href.includes("obrigado") || window.location.href.includes("thankyou")) {
       ttq.track('Purchase', {
-        content_id: 'fit360',
-        content_name: 'Fit360 — Guia de Emagrecimento e Fortalecimento Muscular',
+        contents: [{
+          content_id: 'fit360',
+          content_name: 'Fit360 — Guia de Emagrecimento e Fortalecimento Muscular',
+          quantity: 1,
+          price: 39.00
+        }],
         value: 39.00,
         currency: 'BRL'
       });
     }
   }(window, document, 'ttq');
   </script>
-  <!-- TikTok Pixel Code End -->
-
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Montserrat', Arial, sans-serif;
-      background-color: #0A0A0A;
-      color: #FFFFFF;
-      text-align: center;
-    }
-    h1 {
-      color: #00FF66;
-      margin-top: 60px;
-      font-size: 2.2rem;
-    }
-    p {
-      color: #ccc;
-      font-size: 1.1rem;
-      max-width: 700px;
-      margin: 10px auto 40px;
-    }
-    a.botao {
-      display: inline-block;
-      background-color: #00FF66;
-      color: #0A0A0A;
-      font-weight: bold;
-      padding: 16px 32px;
-      border-radius: 12px;
-      text-decoration: none;
-      font-size: 1.2rem;
-      transition: all 0.3s ease;
-    }
-    a.botao:hover {
-      background-color: #00cc55;
-      transform: scale(1.03);
-    }
-    footer {
-      margin-top: 80px;
-      color: #888;
-      font-size: 0.9rem;
-    }
-  </style>
+  <!-- Fim do TikTok Pixel -->
 </head>
 
-<body>
-  <main>
-    <h1>💪 Fit360 — Sua Transformação Começa Hoje</h1>
-    <p>
-      O guia completo para emagrecer, fortalecer o corpo e conquistar sua melhor versão.
-      Resultados reais com treinos inteligentes e alimentação estratégica.
-    </p>
+<body class="antialiased text-gray-200 bg-gray-900">
 
-    <a href="https://pay.kiwify.com.br/inqhKuQ" 
-       target="_blank" 
-       class="botao">
-       Quero meu Fit360 por R$39
-    </a>
+  <header class="bg-gray-900 py-16">
+    <div class="container mx-auto px-6 lg:px-20">
+      <div class="lg:flex lg:items-center lg:justify-between">
+        <div class="lg:w-6/12">
+          <h1 class="text-4xl lg:text-5xl font-extrabold leading-tight mb-4">
+            Transforme seu corpo e sua saúde com o método <span class="text-green-400">Fit360</span>
+          </h1>
+          <p class="text-gray-300 text-lg mb-6">
+            O guia completo para emagrecer, ganhar força e criar hábitos duradouros — sem dietas malucas ou treinos impossíveis.
+          </p>
 
-    <footer>
-      <p>© 2025 Fit360 — Todos os direitos reservados.</p>
-    </footer>
-  </main>
+          <div class="flex items-center space-x-4">
+            <a id="buy-btn" href="https://pay.kiwify.com.br/Yl0bSEA" target="_blank" class="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-md font-semibold shadow-lg transition duration-300">
+              Quero meu Fit360 (R$39)
+            </a>
+            <a href="https://wa.me/55849913781670?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" class="border-2 border-green-500 text-green-500 hover:bg-green-500 hover:text-white px-5 py-3 rounded-md font-semibold transition duration-300">
+              Falar no WhatsApp
+            </a>
+          </div>
+
+          <ul class="mt-6 text-sm text-gray-300 space-y-2">
+            <li>✔ Entrega imediata em PDF</li>
+            <li>✔ Bônus: Plano alimentar flexível + Treino de 15 minutos</li>
+            <li>✔ Garantia de 7 dias</li>
+          </ul>
+        </div>
+
+        <div class="lg:w-5/12 mt-10 lg:mt-0 flex justify-center">
+          <img src="https://i.ibb.co/KcZNBtgw/Chat-GPT-Image-16-de-out-de-2025-10-47-46.png" alt="Capa Fit360" class="w-72 lg:w-80 shadow-2xl rounded-md transform hover:scale-105 transition" />
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <section class="container mx-auto px-6 lg:px-20 py-12">
+    <div class="grid lg:grid-cols-3 gap-8">
+      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <h3 class="text-xl font-bold mb-3">Alimentação inteligente</h3>
+        <p class="text-gray-300">Aprenda a montar refeições que aceleram a perda de gordura sem passar fome. Modelos de cardápio práticos para homens e mulheres.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <h3 class="text-xl font-bold mb-3">Treinos que funcionam</h3>
+        <p class="text-gray-300">Treinos em casa e na academia para iniciantes e intermediários, com progressão de carga e adaptações.</p>
+      </div>
+      <div class="p-6 bg-gray-800 rounded-lg border border-gray-700">
+        <h3 class="text-xl font-bold mb-3">Mentalidade e rotina</h3>
+        <p class="text-gray-300">Estratégias práticas para criar disciplina, lidar com recaídas e manter resultados ao longo do tempo.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-gray-900 py-8">
+    <div class="container mx-auto px-6 lg:px-20 text-gray-400 text-sm">
+      <div class="lg:flex lg:justify-between lg:items-center">
+        <div>© Fit360 • Guia de Emagrecimento e Fortalecimento Muscular</div>
+        <div class="mt-4 lg:mt-0">Suporte: <a href="https://wa.me/55849913781670?text=Olá%2C%20gostaria%20de%20saber%20mais%20sobre%20o%20Fit360." target="_blank" class="text-green-400 hover:text-green-300">WhatsApp (84) 99137-8167</a></div>
+      </div>
+      <p class="text-xs text-gray-500 mt-2">Os resultados podem variar de pessoa para pessoa.</p>
+    </div>
+  </footer>
 </body>
 </html>
-
-
